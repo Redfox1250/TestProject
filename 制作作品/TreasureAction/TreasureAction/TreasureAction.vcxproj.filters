@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MAIN">
+      <UniqueIdentifier>{fb209427-908e-44b3-bebd-c1d28396c9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MANAGER">
+      <UniqueIdentifier>{f6c22276-05a3-4ebb-9ce7-74c6558b0ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE">
+      <UniqueIdentifier>{864d4a02-48d9-4291-8ed5-d53f5687e54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INPUT">
+      <UniqueIdentifier>{70656aa9-0484-4c2b-92e7-11698b1a5e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アイコン">
+      <UniqueIdentifier>{ddc2f743-55c7-452d-a861-d4f92c03c9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDERER">
+      <UniqueIdentifier>{9dd177e8-9751-4825-bcdc-8fca7bd6817a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE2D">
+      <UniqueIdentifier>{aeb777a2-f351-434a-b83d-f646b4633974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOUND">
+      <UniqueIdentifier>{6b05f42f-dc69-411d-af28-a68387db891b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE3D">
+      <UniqueIdentifier>{34476aa8-de6a-442a-814a-4ce10290f42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENEBILLBOARD">
+      <UniqueIdentifier>{d96b9f6e-b951-4d14-8fb1-405c5c2047d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MESH_FILED">
+      <UniqueIdentifier>{21dfcd2d-5d54-42cd-bd6a-7928f4386e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MESH_CYLINDER">
+      <UniqueIdentifier>{f5fe8e4b-0d10-46ba-86bd-e898eb5b915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MESH_DOME">
+      <UniqueIdentifier>{7309b523-bbae-4a51-9439-1761e466e31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHADOW">
+      <UniqueIdentifier>{5fa4bd82-910b-4354-a5d1-1352c3628595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENEX">
+      <UniqueIdentifier>{04fd31c9-17df-4ff3-8618-5ab83c2afe11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ">
+      <UniqueIdentifier>{908e70e9-6d1d-477d-a199-33299fbf3db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\計算">
+      <UniqueIdentifier>{1af4338e-65c2-4655-9306-36a464dfdd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\当たり判定">
+      <UniqueIdentifier>{9886bbfe-04ad-4a21-8634-b3664798b818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライト">
+      <UniqueIdentifier>{6c560114-0e93-4e22-b1a0-667abdc71c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\頂点情報">
+      <UniqueIdentifier>{01e939de-a762-476b-bca4-3aca017235aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ">
+      <UniqueIdentifier>{3049acce-0e67-4373-a1a8-367dc9d08a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="デバッグフォント">
+      <UniqueIdentifier>{acd8d6b7-c5e8-4693-87b4-faf2b3a8d529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フェード">
+      <UniqueIdentifier>{d00821f1-72d1-4347-bf8e-f67396d7a1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE_TITLE">
+      <UniqueIdentifier>{5db68875-958f-41a4-a89a-4885a80e4d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE_EDITOR">
+      <UniqueIdentifier>{9299f977-1e31-4261-b310-465f9c8aede6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECTMANAGER">
+      <UniqueIdentifier>{fa2211a5-3788-4ac8-bc50-477d1824018e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>デバッグフォント</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>フェード</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2D.cpp">
+      <Filter>SCENE2D</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>SOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ライト</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>SCENE3D</Filter>
+    </ClCompile>
+    <ClCompile Include="scenebillboard.cpp">
+      <Filter>SCENEBILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneX.cpp">
+      <Filter>SCENEX</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfiled.cpp">
+      <Filter>MESH_FILED</Filter>
+    </ClCompile>
+    <ClCompile Include="meshcylinder.cpp">
+      <Filter>MESH_CYLINDER</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>SHADOW</Filter>
+    </ClCompile>
+    <ClCompile Include="meshdome.cpp">
+      <Filter>MESH_DOME</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>ライブラリ\計算</Filter>
+    </ClCompile>
+    <ClCompile Include="colllib.cpp">
+      <Filter>ライブラリ\当たり判定</Filter>
+    </ClCompile>
+    <ClCompile Include="verlib.cpp">
+      <Filter>ライブラリ\頂点情報</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>MODE_TITLE</Filter>
+    </ClCompile>
+    <ClCompile Include="editor.cpp">
+      <Filter>MODE_EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="objectmanager.cpp">
+      <Filter>OBJECTMANAGER</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>デバッグフォント</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>アイコン</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>フェード</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2D.h">
+      <Filter>SCENE2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ライト</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>SCENE3D</Filter>
+    </ClInclude>
+    <ClInclude Include="scenebillboard.h">
+      <Filter>SCENEBILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneX.h">
+      <Filter>SCENEX</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfiled.h">
+      <Filter>MESH_FILED</Filter>
+    </ClInclude>
+    <ClInclude Include="meshcylinder.h">
+      <Filter>MESH_CYLINDER</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>SHADOW</Filter>
+    </ClInclude>
+    <ClInclude Include="meshdome.h">
+      <Filter>MESH_DOME</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>ライブラリ\計算</Filter>
+    </ClInclude>
+    <ClInclude Include="colllib.h">
+      <Filter>ライブラリ\当たり判定</Filter>
+    </ClInclude>
+    <ClInclude Include="verlib.h">
+      <Filter>ライブラリ\頂点情報</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>MODE_TITLE</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>MODE_EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="objectmanager.h">
+      <Filter>OBJECTMANAGER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Icon.rc">
+      <Filter>アイコン</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico">
+      <Filter>アイコン</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
