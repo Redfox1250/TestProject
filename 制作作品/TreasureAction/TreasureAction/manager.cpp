@@ -15,7 +15,7 @@
 #include "light.h"
 #include "sound.h"
 #include "meshfiled.h"
-#include "teststage.h"
+#include "editor.h"
 
 //------------------------------------------------
 //ƒ}ƒNƒ’è‹`
@@ -34,7 +34,7 @@ CLight *CManager::m_pLight = NULL;
 CCamera *CManager::m_pCamera = NULL;
 CInputJoypad *CManager::m_pJoypad = NULL;
 CFade *CManager::m_pFade = NULL;
-CTestStage *CManager::m_pTestStage = NULL;
+CEditor *CManager::m_pEditor = NULL;
 #ifdef _DEBUG
 CDebugProc *CManager::m_pDebugProc = NULL;
 #endif // _DEBUG
@@ -88,7 +88,7 @@ HRESULT CManager::Init(HINSTANCE hInstance, HWND hWnd, bool bWindow)
 	m_pFade = CFade::Create();
 
 	MODE mode;
-	mode = MODE::MODE_TEST;
+	mode = MODE::MODE_EDITER;
 
 #ifdef _DEBUG
 	m_pDebugProc = new CDebugProc;
@@ -186,8 +186,8 @@ void CManager::SetMode(MODE mode) {
 
 	switch (m_mode)
 	{
-	case MODE_TEST:
-		SafeUninit(m_pTestStage);
+	case MODE_EDITER:
+		SafeUninit(m_pEditor);
 		break;
 	//case MODE_TUTORIAL:
 	//	SafeUninit(m_pTutorial);
@@ -213,11 +213,11 @@ void CManager::SetMode(MODE mode) {
 	}
 	 switch (mode)
 	 {
-	case MODE_TEST:
-		if (!m_pTestStage)
+	case MODE_EDITER:
+		if (!m_pEditor)
 		{
-			m_pTestStage = new CTestStage;
-			m_pTestStage->Init();
+			m_pEditor = new CEditor;
+			m_pEditor->Init();
 			m_pFade->Start(CFade::STATUS_FADEIN, 60);
 		}
 		break;

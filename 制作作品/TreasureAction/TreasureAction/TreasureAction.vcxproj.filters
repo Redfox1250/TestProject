@@ -79,6 +79,9 @@
     <Filter Include="OBJECTMANAGER">
       <UniqueIdentifier>{fa2211a5-3788-4ac8-bc50-477d1824018e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MESH_BLOCK">
+      <UniqueIdentifier>{f06a90c9-d990-49d2-981b-916079fc0520}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -152,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="objectmanager.cpp">
       <Filter>OBJECTMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="meshblock.cpp">
+      <Filter>MESH_BLOCK</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -229,6 +235,9 @@
     </ClInclude>
     <ClInclude Include="objectmanager.h">
       <Filter>OBJECTMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="meshblock.h">
+      <Filter>MESH_BLOCK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

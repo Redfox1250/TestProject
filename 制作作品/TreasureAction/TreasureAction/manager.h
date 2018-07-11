@@ -25,8 +25,8 @@ class CInputKeyboard;
 class CLight;
 class CCamera;
 class CInputJoypad;
+class CEditor;
 
-class CTestStage;
 //------------------------------------------------
 //マネージャークラス
 //------------------------------------------------
@@ -41,7 +41,7 @@ public:
 	{
 		MODE_NONE = 0,
 		MODE_TITLE,
-		MODE_TEST,
+		MODE_EDITER,
 		MODE_EXIT,
 		MODE_MAX,
 	}MODE;
@@ -75,7 +75,8 @@ public:
 	static CLight *GetLight(void) { return m_pLight; }
 	static CCamera *GetCamera(void) { return m_pCamera; }
 	static CInputJoypad *GetInputJoypad(void) { return m_pJoypad; }
-	static CTestStage *GetTestStage(void) { return m_pTestStage; }
+	static CEditor *GetEditor(void) { return m_pEditor; }
+
 private:
 	static MODE m_mode;
 	static GAME_STATE m_GameState;
@@ -86,7 +87,8 @@ private:
 	static CLight *m_pLight;
 	static CCamera *m_pCamera;
 	static CInputJoypad *m_pJoypad;
-	static CTestStage *m_pTestStage;
+	static CEditor *m_pEditor;
+
 #ifdef _DEBUG
 	static CDebugProc *m_pDebugProc;
 #endif 
